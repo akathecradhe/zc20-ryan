@@ -1,0 +1,113 @@
+/**
+https://github.com/negomi/react-burger-menu
+ */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: relative;
+  width: 21px;
+  height: 18px;
+  float: right;
+  margin-left: 1rem;
+}
+
+[class^="bm-"] *:focus {
+  outline: 0 !important;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: rgba(255, 255, 255, 0.5);
+  transition: ease-in .2s;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: rgba(255, 255, 255, 1);
+  opacity: 1 !important;
+  transition: ease-in .2s;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  padding: 2.5em .5em 0;
+  font-size: 1.15em;
+  margin-top: -23px;
+  text-align: center;
+}
+
+.bm-menu button {
+  margin-bottom: .3em;
+}
+
+hr {
+  margin-top: 1.5em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  width:      100%;
+  height:     100%;
+  z-index:    10;
+  top:        0;
+  left:       0;
+  position:   fixed;
+}
+
+.list-group {
+  text-align: left;
+  font-size: 90%;
+  margin-bottom: 2em;
+}
+
+.list-group a {
+  color: #777;
+  display: block;
+  padding: 0.75rem 1.25rem;
+}
+
+.list-group a:hover {
+  color: #55a630;
+}
+
+.list-group-item {
+  padding: 0;
+}
